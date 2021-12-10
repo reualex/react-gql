@@ -1,0 +1,16 @@
+# Files
+package-lock.json
+yarn.lock
+*/tsconfig.json
+CHANGELOG.md
+
+# Folders
+node_modules/
+dist/
+coverage/
+build/
+es/
+lib/
+esm/
+umd/
+serverless-dist/

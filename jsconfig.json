@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "_configs": ["./_configs"],
+      "_constants": ["./_constants"],
+      "_layers/*": ["./_layers/*"],
+      "_pages/*": ["./_pages/*"]
+    }
+  }
+}
