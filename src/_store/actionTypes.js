@@ -1,0 +1,2 @@
+export const CHANGE_STATUSES = 'CHANGE_STATUSES';
+export const TOGGLE_IS_OPEN = 'TOGGLE_IS_OPEN';

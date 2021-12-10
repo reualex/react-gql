@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { CircularProgress } from '@material-ui/core';
 
 import { APP_BOTTOM_NAVIGATION, LOAD_LIST_ITEMS } from '_constants';
