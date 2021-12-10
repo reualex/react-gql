@@ -33,36 +33,3 @@ export const POSTS_LIST_FILTERING_QUERY = gql`
     }
   }
 `;
-
-export const test = gql`
-  query TagsList($state: [String!]) {
-    tagsList(filter: { name: { in: $state } }) {
-      items {
-        posts {
-          count
-          items {
-            id
-            title
-            thumbnail {
-              id
-              downloadUrl
-            }
-          }
-        }
-      }
-      groups: items {
-        posts {
-          count
-          items {
-            id
-            title
-            thumbnail {
-              id
-              downloadUrl
-            }
-          }
-        }
-      }
-    }
-  }
-`;
